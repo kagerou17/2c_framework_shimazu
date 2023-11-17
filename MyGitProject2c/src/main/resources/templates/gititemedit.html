@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2>変更</h2>
+	<form th:action="@{/gititemedit}" method="POST" enctype="multipart/form-data">
+
+		名前：<input type="text" name="item_name"> <br>
+		値段：<input type="text" name="item_price"> <br>
+		
+		<input type="submit">
+	</form>
+
+</body>
+</html>
